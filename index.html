@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Product preview card component</title>
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chonburi&family=DM+Serif+Text:ital@0;1&family=Figtree:ital,wght@0,300..900;1,300..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Geist:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rubik+Mono+One&family=Young+Serif&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- style -->
+    <link rel="stylesheet" href="style/output.css" />
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <main class="card">
+      <figure>
+        <img
+          src="images/image-product-mobile.jpg"
+          alt="Parfum Image"
+          class="product-img"
+        />
+      </figure>
+      <div class="wrapper">
+        <div class="about-product">
+          <section class="description">
+            <span class="text-preset-1-smaller">Perfume</span>
+            <h1 class="text-preset-2">Gabrielle Essence Eau De Parfum</h1>
+            <p class="text-preset-1-paragraph">
+              A floral, solar and voluptuous interpretation composed by Olivier
+              Polge,Perfumer-Creator for the House of CHANEL.
+            </p>
+          </section>
+          <section class="buy">
+            <span class="price">
+              <span itemprop="discount price" class="text-preset-2 discount">
+                <span itemprop="pricecurrency" content="USD">$</span>
+                <span itemprop="price" content="149.99">149.99</span>
+              </span>
+              <span itemprop="normal price" class="normal-price text-preset-1-paragraph">
+                <span itemprop="pricecurrency" content="USD">$</span>
+                <span itemprop="price" content="169.99">169.99</span>
+              </span>
+            </span>
+            <button>
+              <img src="images/icon-cart.svg" alt="icon cart" />Add to Cart
+            </button>
+          </section>
+        </div>
+      </div>
+    </main>
+
+    <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+  </body>
+</html>
