@@ -71,7 +71,7 @@ body .card {
     display: flex;
   }
   body .card figure img {
-    content: url(/images/image-product-desktop.jpg);
+    content: url(images/image-product-desktop.jpg);
     object-fit: fill;
   }
   body .card .wrapper {
