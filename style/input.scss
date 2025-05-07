@@ -81,10 +81,8 @@ body {
         figure{
             flex: 1;
             display: flex;
-
             img{
-                content: url(images/image-product-desktop.jpg);
-                object-fit: fill;
+                content: url(/images/image-product-desktop.jpg);
             }
         }
         .wrapper{
